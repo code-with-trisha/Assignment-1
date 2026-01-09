@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+    background-color: #ffffff ;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: medium;
+    color: #000000;
+    text-align: left;
+
+}
+.logo img {
+    width: 139px;
+    height: 60px;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.list li a:hover {
+    background-color: rgb(126, 201, 126);
+}
+.button {
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+.button:hover {
+    background-color: white;
+}
